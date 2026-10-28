@@ -1,699 +1,185 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "oner-found-phone",
+  "title": "捡到了 Oner 的手机",
+  "description": "同人虚构作品，与真实人物无关。比赛结束后，你在场馆外捡到一部手机。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "현준",
+    "date": "2026-10-28",
+    "time": "23:17",
+    "battery": 31,
     "network": "5G",
     "wallpaper": "apple-wwdc26"
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
+    "kakao",
     "phone",
     "messages",
-    "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
     "notes",
-    "calendar",
-    "mail",
-    "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
     "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "music",
+    "camera",
+    "settings"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "doran",
+      "name": "도란이형",
+      "phone": "010-0000-0001",
+      "bio": "上单 · 哥哥"
+    },
+    {
+      "id": "manager",
+      "name": "매니저님",
+      "phone": "010-0000-0002",
+      "bio": "队伍经理（虚构）"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "chat-doran",
       "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
+      "title": "도란이형",
+      "participants": ["owner", "doran"],
       "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        },
-        {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
-        }
+        { "id": "kk-doran-1", "body": "现俊啊，今天那波龙是我的锅", "senderId": "doran", "time": "22:48" },
+        { "id": "kk-doran-2", "body": "不是哥的锅，是我来晚了", "senderId": "owner", "time": "22:49" },
+        { "id": "kk-doran-3", "body": "那就一人一半？请你吃夜宵抵掉", "senderId": "doran", "time": "22:50" },
+        { "id": "kk-doran-4", "body": "……好", "senderId": "owner", "time": "22:52" },
+        { "id": "kk-doran-5", "body": "你手机又要没电了吧，回去早点充电", "senderId": "doran", "time": "23:05" }
+      ]
+    },
+    {
+      "id": "chat-manager",
+      "app": "kakao",
+      "title": "매니저님",
+      "participants": ["owner", "manager"],
+      "messages": [
+        { "id": "kk-manager-1", "body": "大巴 23:30 出发，别乱跑", "senderId": "manager", "time": "23:02" }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-disclaimer",
+        "title": "写在前面",
+        "body": "本作品为粉丝同人创作，人物关系与情节均为虚构，与真实人物无关。",
+        "kind": "note"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "note-secret",
+        "title": "没发出去的话",
+        "body": "（这里之后填：Oner 想对哥哥说却没说出口的话）",
+        "kind": "note",
+        "folder": "私人笔记",
+        "password": "0722",
+        "hidden": true
       }
     ],
-    "appstore": [
+    "phone": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "call-missed-doran",
+        "title": "도란이형",
+        "body": "未接来电",
+        "kind": "call",
+        "meta": { "phone": "010-0000-0001" }
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "start",
+      "label": "开始",
+      "type": "start",
+      "actions": [
+        { "type": "notification", "key": "", "value": "KakaoTalk：도란이형 发来一条消息" }
+      ]
+    },
+    {
+      "id": "read-charge",
+      "label": "读到哥哥的提醒",
+      "event": "read",
+      "target": "kk-doran-5",
+      "actions": [
+        { "type": "unlock", "key": "note-secret", "value": true },
+        { "type": "notification", "key": "", "value": "备忘录：有一条上锁的笔记（提示：哥哥的生日）" }
+      ]
+    },
+    {
+      "id": "read-secret",
+      "label": "读完秘密笔记",
+      "event": "read",
+      "target": "note-secret",
+      "next": ["incoming-call"]
+    },
+    {
+      "id": "incoming-call",
+      "label": "哥哥打来电话",
+      "type": "delay",
+      "delayMs": 1500,
+      "actions": [
+        { "type": "time", "key": "", "value": "23:24" },
+        { "type": "call", "key": "call-doran", "value": "도란이형" }
+      ]
+    },
+    {
+      "id": "answered",
+      "label": "接起电话",
+      "event": "callAnswered",
+      "target": "call-doran",
+      "next": ["decision"]
+    },
+    {
+      "id": "decision",
+      "label": "要怎么做？",
+      "type": "choice",
+      "next": ["ending-return", "ending-tell"]
+    },
+    {
+      "id": "ending-return",
+      "label": "只是把手机还回去",
+      "type": "ending",
+      "actions": [
+        { "type": "ending", "key": "", "value": "归还：你把手机交给了来找的人，什么都没说。" }
+      ]
+    },
+    {
+      "id": "ending-tell",
+      "label": "替他说出那句话",
+      "type": "ending",
+      "actions": [
+        { "type": "ending", "key": "", "value": "助攻：电话那头沉默了很久，然后笑了。" }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "ending-return",
+      "steps": [
+        { "event": "read", "target": "kk-doran-5" },
+        { "event": "read", "target": "note-secret", "password": "0722" },
+        { "advanceMs": 1500 },
+        { "event": "callAnswered", "target": "call-doran" },
+        { "choose": "ending-return" }
+      ],
+      "ending": "归还：你把手机交给了来找的人，什么都没说。",
+      "expectUnlocked": ["note-secret"]
+    },
+    {
+      "name": "ending-tell",
+      "steps": [
+        { "event": "read", "target": "kk-doran-5" },
+        { "event": "read", "target": "note-secret", "password": "0722" },
+        { "advanceMs": 1500 },
+        { "event": "callAnswered", "target": "call-doran" },
+        { "choose": "ending-tell" }
+      ],
+      "ending": "助攻：电话那头沉默了很久，然后笑了。",
+      "expectUnlocked": ["note-secret"]
+    }
+  ]
 }
